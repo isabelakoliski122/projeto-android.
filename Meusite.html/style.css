@@ -1,0 +1,15 @@
+@charset"UTF-8"
+
+body{
+background-color: darkred;
+
+
+}
+h1,h2{
+    color:whitesmoke;
+    text-align: center;
+}
+pre{
+    color: white;
+    text-align: center;
+}

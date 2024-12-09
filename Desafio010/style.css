@@ -1,0 +1,175 @@
+@charset UTF-8
+
+:root{
+    --cor0:#c5ebd6;
+    --cor1:#83e1ad;
+    --cor2:#3ddc84;
+    --cor3:#2fa866;
+    --cor4:#1acc35;
+    --cor5:#063d1e;
+    --cor6:#3ad07e;
+    --cor7:#2fa765;
+    --cor8:#288d55;
+    --cor9:#227747;
+    --cor10:#1c633b;
+    --cor11:#195835;
+    --font-padrão:arial,verdana,helvetica,sans-serif;
+    --font-destaque:'bebas neue',cursive ;
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: justify;
+  letter-spacing: 1px
+    word-spacing: 1px;
+}
+
+body{
+   background-color:#b9b82e
+}
+header{
+    background-image: linear-gradient(#3ad07e,#2fa765,#288d55,#227747,#1c633b,#195835);
+}
+
+
+header> h1{
+color: white;
+  
+  text-align: center;
+  min-height: 80px
+
+
+}
+header > p{
+    color: white;
+    text-align: center;
+    margin: top 80px;;
+    padding-bottom: 20px;
+}
+header > #menu {
+ color: white;
+ padding: 20px;
+ font-weight: bold;
+ text-decoration: none;
+ 
+}
+
+.video{
+    background-color:#1a5c38;
+ border-radius:5%;
+ background-position: 100%;
+    position: relative;
+    padding-bottom: 64%;
+    
+ }
+ div iframe{
+    position: absolute;
+    top: 5%;
+    bottom: 15%;
+   left: 5%;
+   right: 20%;
+    width: 90%;
+    height: 85%;
+ }
+h1{
+
+}
+
+nav > a:hover{
+    background-color: #3ddc84;
+    color: black;
+    transition-duration: 0,5s;
+    border-radius: 5px;
+    
+}
+
+nav > a{
+    color: white;
+   padding-right: 10px;
+}
+
+h2{
+    color:#1a5c38;
+    
+    
+}
+h3{
+    color: #1a5c38;
+    background-color:#c5ebd6;
+   
+    
+
+}
+main{
+   
+    margin:auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    min-width: 300px;
+    max-width: 1000px;
+    background-color: white;
+    box-shadow: 0px 0px 10px grey;
+    border-radius: 10px;
+
+}
+main img{
+    width:100%;
+}
+#link {
+    color: #195835;
+    background-color: #2fa866;
+    border-radius: 5%;
+    text-decoration: none;
+}
+main img.pequena{
+    width: 50%;
+    display: block;
+    margin: auto;
+
+}
+
+
+    footer {
+        background-color: #1a5c38;
+        
+    }
+    footer >p{
+        text-align: center;
+    }
+ 
+#linkfooter{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+p{
+    
+}
+#aprendermais{
+    color: white;
+    background-color: #063d1e;
+   margin: -10px, -10px, 0px  -10px;
+   border-radius: 10px 10px 0px  0px;
+   padding: 0,9%;
+}
+
+
+#linkfooter{
+    color: white;
+    text-align: center;
+}
+aside{
+  border-radius: 3%;
+    background-color: #7fe2a9;
+}
+aside > ul{
+    list-style-position: inside;
+    list-style-type: '\2714\0020\0020';
+    columns: 2;
+   
+   }
